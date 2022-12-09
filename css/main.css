@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #333;
+}
+
+.head {}
+
+.head h1 {
+    font-size: 50px;
+    color: #111;
+    padding: 20px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav ul {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+.nav ul li a {
+    display: block;
+    height: 70px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.container {
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container .item .photo {
+    margin-bottom: 30px;
+}
+
+.container .item .photo img {
+    width: 100%;
+}
+
+.container ul {
+    margin-bottom: 100px;
+}
+
+.container .item li {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+/* item_01 */
+.container .item .text {
+    line-height: 1.6;
+}
+
+.container .item .text h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+/* item_02 */
+.container .item_02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .item_02 li {
+    width: 300px;
+}
+
+.container .item_02 li h2 {
+    padding: 16px 0;
+}
+
+/* item_03 */
+.container .item_03 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .item_03 .photo {
+    width: 240px;
+    height: 240px;
+    background-color: #ddd;
+    margin: 0 auto;
+    border-radius: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container .item_03 .photo.busan {
+    background-image: url("../images/busan_b.jpg");
+}
+
+.container .item_03 .photo.pohang {
+    background-image: url("../images/pohang_b.jpg");
+}
+
+.container .item_03 .photo.jeju {
+    background-image: url("../images/jeju_b.jpg");
+}
+
+.container .item_03 .text{
+    width: 300px;
+    text-align: center;
+}
+
+.container .item_03 .text h2 {
+    padding: 16px 0;
+}
+
+.container .text h2 {
+    margin: 20px 0;
+}
+
+
+/* bottom */
+.bottom {
+    height: 160px;
+    font-size: 14px;
+    color: #666;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
